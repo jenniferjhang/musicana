@@ -1,0 +1,79 @@
+/* Colors */
+:root{
+    --bg-lavender: #CFD0E6;
+    --bg-lav-light: #F4F4FF;
+    --bg-lav-dark: #5A5C89;
+    --bg-lav-darkest: #292B45;
+    --bg-tan: #E6E0CF;
+    --bg-pink: #E6CFE4;
+}
+.bg-lavender{
+    background-color: var(--bg-lavender);
+}
+.bg-tan{
+    background-color: var(--bg-tan);
+}
+.bg-pink{
+    background-color: var(--bg-pink);
+}
+.bg-lav-light{
+    background-color: var(--bg-lav-light);
+}
+.bg-lav-dark{
+    background-color: var(--bg-lav-dark);
+}
+.bg-lav-darkest{
+    background-color: var(--bg-lav-darkest);
+}
+.bg-hero{
+    background: linear-gradient(var(--bg-lav-darkest) 50%, var(--bg-lav-dark) 100%);
+}
+/* Typography */
+h1,h2,h3,h4,h5,h6{
+    text-transform: capitalize;
+}
+h4{
+    line-height: 0.9;
+}
+
+/* Hero banner */
+.hero-front{
+    margin-bottom: -20%;
+    z-index: 100;
+    transition: all 1.03s ease-in-out;
+}
+.hero-back{
+    margin: -5% 0 5% 0;
+    transition: all 1.03s ease-in-out;   
+}
+.hero-front:hover{
+    transform: translateY(-10%);
+}
+.hero-back:hover{
+    transform: scale(1.5);
+}
+
+/* Category cards */
+.card{
+    border-radius: 30px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.03);
+}
+.pre-header{
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+/* Buttons */
+.btn-icon{
+    font-size: 28px;
+    height: 40px;
+    width: 40px;
+}
+
+#newEvent img{
+    object-fit: cover;
+}
